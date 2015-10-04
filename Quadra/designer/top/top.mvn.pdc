@@ -8,13 +8,14 @@
 
 # Family: SmartFusion2 , Die: M2S010 , Package: 144 TQ , Speed grade: STD 
 
-# Date generated: Sun Oct 04 22:10:48 2015 
+# Date generated: Sun Oct 04 22:27:10 2015 
 
 
 #
 # IO banks setting
 #
 
+set_iobank Bank2 -vcci 3.30 -fixed no
 set_iobank Bank7 -vcci 3.30 -fixed no
 
 #
@@ -32,6 +33,8 @@ set_iobank Bank7 -vcci 3.30 -fixed no
 #
 
 set_io RX -DIRECTION INPUT -pinname 1 -fixed yes
+set_io SCLO\[0\] -DIRECTION OUTPUT -pinname 94 -fixed yes
+set_io SDAO\[0\] -DIRECTION OUTPUT -pinname 91 -fixed yes
 set_io TX -DIRECTION OUTPUT -pinname 2 -fixed yes
 
 #

@@ -71,6 +71,10 @@ set_compile_info \
     -name {"Source"} \
     -value {"C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\synthesis\top.edn"}
 set_compile_info \
+    -category {"Source Files"} \
+    -name {"Source"} \
+    -value {"C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\constraint\io\top.io.pdc"}
+set_compile_info \
     -category {"Options"} \
     -name {"Merge User SDC file(s) with Existing Timing Constraints"} \
     -value {"true"}
@@ -92,4 +96,5 @@ compile \
     -fam SmartFusion2 \
     -die PA4M1000_N \
     -pkg tq144 \
+    -pdc_file {C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\constraint\io\top.io.pdc} \
     -merge_pdc 0

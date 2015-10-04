@@ -1,11 +1,11 @@
 @N|Running in 64-bit mode
 @N|Running in 64-bit mode
 @N: CD720 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
-@N:"C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\top.vhd":26:7:26:9|Top entity is set to top.
+@N:"C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\top.vhd":28:7:28:9|Top entity is set to top.
 @N|Running in 64-bit mode
 @N: CD720 :"C:\Microsemi\Libero_v11.5\Synopsys\synplify_I201403MSP1\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
-@N:"C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\top.vhd":26:7:26:9|Top entity is set to top.
-@N: CD630 :"C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\top.vhd":26:7:26:9|Synthesizing work.top.rtl 
+@N:"C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\top.vhd":28:7:28:9|Top entity is set to top.
+@N: CD630 :"C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\top.vhd":28:7:28:9|Synthesizing work.top.rtl 
 @N: CD630 :"C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\OSC_0\top_OSC_0_OSC.vhd":8:7:8:19|Synthesizing work.top_osc_0_osc.def_arch 
 @N: CD630 :"C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\Actel\SgCore\OSC\1.0.103\osc_comps.vhd":19:7:19:20|Synthesizing work.rcosc_25_50mhz.def_arch 
 @N: CD630 :"C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\FCCC_0\top_FCCC_0_FCCC.vhd":8:7:8:21|Synthesizing work.top_fccc_0_fccc.def_arch 
@@ -22,6 +22,12 @@
 @N: CD630 :"C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\CoreUARTapb_0\rtl\vhdl\core\Tx_async.vhd":33:7:33:32|Synthesizing coreuartapb_lib.top_coreuartapb_0_tx_async.translated 
 @N: CD364 :"C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\CoreUARTapb_0\rtl\vhdl\core\Tx_async.vhd":311:12:311:20|Removed redundant assignment
 @N: CD630 :"C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\CoreUARTapb_0\rtl\vhdl\core\Clock_gen.vhd":35:7:35:33|Synthesizing coreuartapb_lib.top_coreuartapb_0_clock_gen.rtl 
+@N: CD630 :"C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\Actel\DirectCore\COREI2C\7.1.102\rtl\vhdl\core\corei2c.vhd":35:7:35:13|Synthesizing corei2c_lib.corei2c.rtl 
+@N: CD630 :"C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\Actel\DirectCore\COREI2C\7.1.102\rtl\vhdl\core\corei2creal.vhd":36:7:36:17|Synthesizing corei2c_lib.corei2creal.rtl 
+@N: CD231 :"C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\Actel\DirectCore\COREI2C\7.1.102\rtl\vhdl\core\corei2creal.vhd":182:17:182:18|Using onehot encoding for type fsmmod_type (fsmmod0="1000000")
+@N: CD231 :"C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\Actel\DirectCore\COREI2C\7.1.102\rtl\vhdl\core\corei2creal.vhd":174:18:174:19|Using onehot encoding for type fsmsync_type (fsmsync0="10000000")
+@N: CD231 :"C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\Actel\DirectCore\COREI2C\7.1.102\rtl\vhdl\core\corei2creal.vhd":166:17:166:18|Using onehot encoding for type fsmdet_type (fsmdet0="1000000")
+@N: CD232 :"C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\Actel\DirectCore\COREI2C\7.1.102\rtl\vhdl\core\corei2creal.vhd":152:17:152:18|Using gray code encoding for type fsmsta_type
 @N: CD630 :"C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":34:7:34:14|Synthesizing coreapb3_lib.coreapb3.coreapb3_arch 
 @N: CD630 :"C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd":33:7:33:23|Synthesizing coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch 
 @N: CD630 :"C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\COREABC_0\rtl\vhdl\core\coreabc.vhd":58:7:58:27|Synthesizing coreabc_lib.top_coreabc_0_coreabc.rtl 
@@ -31,6 +37,9 @@
 @N: CD630 :"C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\COREABC_0\rtl\vhdl\core\ramblocks.vhd":33:7:33:29|Synthesizing coreabc_lib.top_coreabc_0_ramblocks.rtl 
 @N: CD630 :"C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\COREABC_0\rtl\vhdl\core\ram128x8_smartfusion2.vhd":23:7:23:28|Synthesizing coreabc_lib.top_coreabc_0_ram128x8.rtl 
 @N: CL201 :"C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\COREABC_0\rtl\vhdl\core\coreabc.vhd":869:2:869:3|Trying to extract state machine for register ICYCLE
+@N: CL201 :"C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\Actel\DirectCore\COREI2C\7.1.102\rtl\vhdl\core\corei2creal.vhd":2476:8:2476:9|Trying to extract state machine for register fsmmod
+@N: CL201 :"C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\Actel\DirectCore\COREI2C\7.1.102\rtl\vhdl\core\corei2creal.vhd":2242:8:2242:9|Trying to extract state machine for register fsmdet
+@N: CL201 :"C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\Actel\DirectCore\COREI2C\7.1.102\rtl\vhdl\core\corei2creal.vhd":1553:8:1553:9|Trying to extract state machine for register fsmsync
 @N: CL201 :"C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\CoreUARTapb_0\rtl\vhdl\core\Tx_async.vhd":134:4:134:5|Trying to extract state machine for register xmit_state
 @N: CL201 :"C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\CoreUARTapb_0\rtl\vhdl\core\Rx_async.vhd":264:6:264:7|Trying to extract state machine for register rx_state
 @N: CG364 :"C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\hdl\rx_tx.v":1:7:1:11|Synthesizing module tx_rx

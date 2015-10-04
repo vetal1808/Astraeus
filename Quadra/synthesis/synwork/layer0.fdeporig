@@ -1,5 +1,5 @@
 #defaultlanguage:vhdl
-#OPTIONS:"|-mixedhdl|-top|work.top|-layerid|0|-prodtype|synplify_pro|-primux|-dspmac|-pqdpadd|-fixsmult|-divnmod|-nram|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|COREABC_LIB|-lib|COREABC_LIB|-lib|COREABC_LIB|-lib|COREABC_LIB|-lib|COREABC_LIB|-lib|COREABC_LIB|-lib|COREABC_LIB|-lib|COREABC_LIB|-lib|COREABC_LIB|-lib|COREABC_LIB|-lib|COREABC_LIB|-lib|COREABC_LIB|-lib|COREABC_LIB|-lib|COREABC_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREUARTAPB_LIB|-lib|COREUARTAPB_LIB|-lib|COREUARTAPB_LIB|-lib|COREUARTAPB_LIB|-lib|COREUARTAPB_LIB|-lib|COREUARTAPB_LIB|-lib|COREUARTAPB_LIB|-lib|COREABC_LIB|-lib|COREAPB3_LIB|-lib|COREUARTAPB_LIB|-lib|work"
+#OPTIONS:"|-mixedhdl|-top|work.top|-layerid|0|-prodtype|synplify_pro|-primux|-dspmac|-pqdpadd|-fixsmult|-divnmod|-nram|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|COREABC_LIB|-lib|COREABC_LIB|-lib|COREABC_LIB|-lib|COREABC_LIB|-lib|COREABC_LIB|-lib|COREABC_LIB|-lib|COREABC_LIB|-lib|COREABC_LIB|-lib|COREABC_LIB|-lib|COREABC_LIB|-lib|COREABC_LIB|-lib|COREABC_LIB|-lib|COREABC_LIB|-lib|COREABC_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREI2C_LIB|-lib|COREI2C_LIB|-lib|COREI2C_LIB|-lib|COREUARTAPB_LIB|-lib|COREUARTAPB_LIB|-lib|COREUARTAPB_LIB|-lib|COREUARTAPB_LIB|-lib|COREUARTAPB_LIB|-lib|COREUARTAPB_LIB|-lib|COREUARTAPB_LIB|-lib|COREABC_LIB|-lib|COREAPB3_LIB|-lib|COREUARTAPB_LIB|-lib|work"
 #CUR:"C:\\Microsemi\\Libero_v11.5\\Synopsys\\synplify_I201403MSP1\\bin64\\c_vhdl.exe":1412882230
 #CUR:"C:\\Microsemi\\Libero_v11.5\\Synopsys\\synplify_I201403MSP1\\lib\\vhd\\location.map":1413206672
 #CUR:"C:\\Microsemi\\Libero_v11.5\\Synopsys\\synplify_I201403MSP1\\lib\\vhd\\std.vhd":1412881844
@@ -9,37 +9,40 @@
 #CUR:"C:\\Microsemi\\Libero_v11.5\\Synopsys\\synplify_I201403MSP1\\lib\\vhd\\umr_capim.vhd":1412882096
 #CUR:"C:\\Microsemi\\Libero_v11.5\\Synopsys\\synplify_I201403MSP1\\lib\\vhd\\arith.vhd":1412881844
 #CUR:"C:\\Microsemi\\Libero_v11.5\\Synopsys\\synplify_I201403MSP1\\lib\\vhd\\unsigned.vhd":1412881844
-#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\FCCC_0\\top_FCCC_0_FCCC.vhd":1443985787
+#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\FCCC_0\\top_FCCC_0_FCCC.vhd":1443986601
 #CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\Actel\\SgCore\\OSC\\1.0.103\\osc_comps.vhd":1440060231
-#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\OSC_0\\top_OSC_0_OSC.vhd":1443985789
-#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\COREABC_0\\rtl\\vhdl\\core\\ram256x16_rtl.vhd":1443985785
-#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\COREABC_0\\rtl\\vhdl\\core\\ram256x8_rtl.vhd":1443985785
-#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\COREABC_0\\rtl\\vhdl\\core\\ram128x8_smartfusion2.vhd":1443985785
-#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\COREABC_0\\rtl\\vhdl\\core\\support.vhd":1443985785
-#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\COREABC_0\\rtl\\vhdl\\core\\ramblocks.vhd":1443985785
-#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\COREABC_0\\rtl\\vhdl\\core\\acmtable.vhd":1443985784
-#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\COREABC_0\\rtl\\vhdl\\core\\instructions.vhd":1443985784
-#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\COREABC_0\\rtl\\vhdl\\core\\iram512x9_rtl.vhd":1443985785
-#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\COREABC_0\\rtl\\vhdl\\core\\instructram.vhd":1443985785
-#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\COREABC_0\\rtl\\vhdl\\core\\instructnvm_bb.vhd":1443985785
-#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\COREABC_0\\rtl\\vhdl\\test\\misc.vhd":1443985785
-#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\COREABC_0\\rtl\\vhdl\\test\\textio.vhd":1443985785
-#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\COREABC_0\\rtl\\vhdl\\core\\debugblk.vhd":1443985785
-#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\COREABC_0\\rtl\\vhdl\\core\\coreabc.vhd":1443985785
+#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\OSC_0\\top_OSC_0_OSC.vhd":1443986603
+#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\COREABC_0\\rtl\\vhdl\\core\\ram256x16_rtl.vhd":1443986598
+#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\COREABC_0\\rtl\\vhdl\\core\\ram256x8_rtl.vhd":1443986598
+#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\COREABC_0\\rtl\\vhdl\\core\\ram128x8_smartfusion2.vhd":1443986598
+#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\COREABC_0\\rtl\\vhdl\\core\\support.vhd":1443986598
+#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\COREABC_0\\rtl\\vhdl\\core\\ramblocks.vhd":1443986598
+#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\COREABC_0\\rtl\\vhdl\\core\\acmtable.vhd":1443986598
+#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\COREABC_0\\rtl\\vhdl\\core\\instructions.vhd":1443986598
+#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\COREABC_0\\rtl\\vhdl\\core\\iram512x9_rtl.vhd":1443986598
+#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\COREABC_0\\rtl\\vhdl\\core\\instructram.vhd":1443986598
+#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\COREABC_0\\rtl\\vhdl\\core\\instructnvm_bb.vhd":1443986598
+#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\COREABC_0\\rtl\\vhdl\\test\\misc.vhd":1443986598
+#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\COREABC_0\\rtl\\vhdl\\test\\textio.vhd":1443986598
+#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\COREABC_0\\rtl\\vhdl\\core\\debugblk.vhd":1443986598
+#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\COREABC_0\\rtl\\vhdl\\core\\coreabc.vhd":1443986598
 #CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\coreapb3_muxptob3.vhd":1440060229
 #CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\coreapb3_iaddr_reg.vhd":1440060229
 #CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\coreapb3.vhd":1440060229
-#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\CoreUARTapb_0\\rtl\\vhdl\\core\\Clock_gen.vhd":1443985785
-#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\CoreUARTapb_0\\rtl\\vhdl\\core\\Tx_async.vhd":1443985785
-#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\CoreUARTapb_0\\rtl\\vhdl\\core\\Rx_async.vhd":1443985785
-#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\CoreUARTapb_0\\rtl\\vhdl\\core\\fifo_256x8_g4.vhd":1443985785
-#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\CoreUARTapb_0\\rtl\\vhdl\\core\\coreuart_pkg.vhd":1443985785
-#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\CoreUARTapb_0\\rtl\\vhdl\\core\\CoreUART.vhd":1443985785
-#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\CoreUARTapb_0\\rtl\\vhdl\\core\\CoreUARTapb.vhd":1443985785
-#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\COREABC_0\\rtl\\vhdl\\core\\components.vhd":1443985785
+#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\Actel\\DirectCore\\COREI2C\\7.1.102\\rtl\\vhdl\\core\\corei2creal.vhd":1443809449
+#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\Actel\\DirectCore\\COREI2C\\7.1.102\\rtl\\vhdl\\core\\corei2c_pkg.vhd":1443809449
+#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\Actel\\DirectCore\\COREI2C\\7.1.102\\rtl\\vhdl\\core\\corei2c.vhd":1443809449
+#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\CoreUARTapb_0\\rtl\\vhdl\\core\\Clock_gen.vhd":1443986598
+#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\CoreUARTapb_0\\rtl\\vhdl\\core\\Tx_async.vhd":1443986598
+#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\CoreUARTapb_0\\rtl\\vhdl\\core\\Rx_async.vhd":1443986598
+#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\CoreUARTapb_0\\rtl\\vhdl\\core\\fifo_256x8_g4.vhd":1443986598
+#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\CoreUARTapb_0\\rtl\\vhdl\\core\\coreuart_pkg.vhd":1443986598
+#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\CoreUARTapb_0\\rtl\\vhdl\\core\\CoreUART.vhd":1443986598
+#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\CoreUARTapb_0\\rtl\\vhdl\\core\\CoreUARTapb.vhd":1443986598
+#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\COREABC_0\\rtl\\vhdl\\core\\components.vhd":1443986598
 #CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core\\components.vhd":1440060229
-#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\CoreUARTapb_0\\rtl\\vhdl\\core\\components.vhd":1443985785
-#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\top.vhd":1443985789
+#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\CoreUARTapb_0\\rtl\\vhdl\\core\\components.vhd":1443986598
+#CUR:"C:\\Users\\kruci_000\\Desktop\\SoC\\i2c\\Quadra\\component\\work\\top\\top.vhd":1443986603
 0 "C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\FCCC_0\top_FCCC_0_FCCC.vhd" vhdl
 1 "C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\Actel\SgCore\OSC\1.0.103\osc_comps.vhd" vhdl
 2 "C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\OSC_0\top_OSC_0_OSC.vhd" vhdl
@@ -60,17 +63,20 @@
 17 "C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd" vhdl
 18 "C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd" vhdl
 19 "C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd" vhdl
-20 "C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\CoreUARTapb_0\rtl\vhdl\core\Clock_gen.vhd" vhdl
-21 "C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\CoreUARTapb_0\rtl\vhdl\core\Tx_async.vhd" vhdl
-22 "C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\CoreUARTapb_0\rtl\vhdl\core\Rx_async.vhd" vhdl
-23 "C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\CoreUARTapb_0\rtl\vhdl\core\fifo_256x8_g4.vhd" vhdl
-24 "C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\CoreUARTapb_0\rtl\vhdl\core\coreuart_pkg.vhd" vhdl
-25 "C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\CoreUARTapb_0\rtl\vhdl\core\CoreUART.vhd" vhdl
-26 "C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\CoreUARTapb_0\rtl\vhdl\core\CoreUARTapb.vhd" vhdl
-27 "C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\COREABC_0\rtl\vhdl\core\components.vhd" vhdl
-28 "C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd" vhdl
-29 "C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\CoreUARTapb_0\rtl\vhdl\core\components.vhd" vhdl
-30 "C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\top.vhd" vhdl
+20 "C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\Actel\DirectCore\COREI2C\7.1.102\rtl\vhdl\core\corei2creal.vhd" vhdl
+21 "C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\Actel\DirectCore\COREI2C\7.1.102\rtl\vhdl\core\corei2c_pkg.vhd" vhdl
+22 "C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\Actel\DirectCore\COREI2C\7.1.102\rtl\vhdl\core\corei2c.vhd" vhdl
+23 "C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\CoreUARTapb_0\rtl\vhdl\core\Clock_gen.vhd" vhdl
+24 "C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\CoreUARTapb_0\rtl\vhdl\core\Tx_async.vhd" vhdl
+25 "C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\CoreUARTapb_0\rtl\vhdl\core\Rx_async.vhd" vhdl
+26 "C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\CoreUARTapb_0\rtl\vhdl\core\fifo_256x8_g4.vhd" vhdl
+27 "C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\CoreUARTapb_0\rtl\vhdl\core\coreuart_pkg.vhd" vhdl
+28 "C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\CoreUARTapb_0\rtl\vhdl\core\CoreUART.vhd" vhdl
+29 "C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\CoreUARTapb_0\rtl\vhdl\core\CoreUARTapb.vhd" vhdl
+30 "C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\COREABC_0\rtl\vhdl\core\components.vhd" vhdl
+31 "C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd" vhdl
+32 "C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\CoreUARTapb_0\rtl\vhdl\core\components.vhd" vhdl
+33 "C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\component\work\top\top.vhd" vhdl
 
 # Dependency Lists (Uses list)
 0 -1
@@ -95,20 +101,23 @@
 19 17 18 
 20 -1
 21 -1
-22 -1
+22 20 21 
 23 -1
 24 -1
-25 20 21 22 23 24 
-26 25 24 
+25 -1
+26 -1
 27 -1
-28 -1
-29 -1
-30 16 19 26 0 2 27 28 29 
+28 23 24 25 26 27 
+29 28 27 
+30 -1
+31 -1
+32 -1
+33 16 19 22 29 0 2 30 31 32 
 
 # Dependency Lists (Users Of)
-0 30 
+0 33 
 1 2 
-2 30 
+2 33 
 3 7 
 4 7 
 5 7 
@@ -122,21 +131,24 @@
 13 14 
 14 15 
 15 16 
-16 30 
+16 33 
 17 19 
 18 19 
-19 30 
-20 25 
-21 25 
-22 25 
-23 25 
-24 26 25 
-25 26 
-26 30 
-27 30 
-28 30 
-29 30 
-30 -1
+19 33 
+20 22 
+21 22 
+22 33 
+23 28 
+24 28 
+25 28 
+26 28 
+27 29 28 
+28 29 
+29 33 
+30 33 
+31 33 
+32 33 
+33 -1
 
 # Design Unit to File Association
 arch work top_fccc_0_fccc def_arch 0
@@ -184,24 +196,28 @@ arch coreapb3_lib coreapb3_iaddr_reg rtl 18
 module coreapb3_lib coreapb3_iaddr_reg 18
 arch coreapb3_lib coreapb3 coreapb3_arch 19
 module coreapb3_lib coreapb3 19
-arch coreuartapb_lib top_coreuartapb_0_clock_gen rtl 20
-module coreuartapb_lib top_coreuartapb_0_clock_gen 20
-arch coreuartapb_lib top_coreuartapb_0_tx_async translated 21
-module coreuartapb_lib top_coreuartapb_0_tx_async 21
-arch coreuartapb_lib top_coreuartapb_0_rx_async translated 22
-module coreuartapb_lib top_coreuartapb_0_rx_async 22
-arch coreuartapb_lib top_coreuartapb_0_ram128x8_pa4 translated 23
-module coreuartapb_lib top_coreuartapb_0_ram128x8_pa4 23
-arch coreuartapb_lib top_coreuartapb_0_fifo_ctrl_128 translated 23
-module coreuartapb_lib top_coreuartapb_0_fifo_ctrl_128 23
-arch coreuartapb_lib top_coreuartapb_0_fifo_256x8 translated 23
-module coreuartapb_lib top_coreuartapb_0_fifo_256x8 23
-arch coreuartapb_lib top_coreuartapb_0_coreuart translated 25
-module coreuartapb_lib top_coreuartapb_0_coreuart 25
-arch coreuartapb_lib top_coreuartapb_0_coreuartapb translated 26
-module coreuartapb_lib top_coreuartapb_0_coreuartapb 26
-arch work top rtl 30
-module work top 30
+arch corei2c_lib corei2creal rtl 20
+module corei2c_lib corei2creal 20
+arch corei2c_lib corei2c rtl 22
+module corei2c_lib corei2c 22
+arch coreuartapb_lib top_coreuartapb_0_clock_gen rtl 23
+module coreuartapb_lib top_coreuartapb_0_clock_gen 23
+arch coreuartapb_lib top_coreuartapb_0_tx_async translated 24
+module coreuartapb_lib top_coreuartapb_0_tx_async 24
+arch coreuartapb_lib top_coreuartapb_0_rx_async translated 25
+module coreuartapb_lib top_coreuartapb_0_rx_async 25
+arch coreuartapb_lib top_coreuartapb_0_ram128x8_pa4 translated 26
+module coreuartapb_lib top_coreuartapb_0_ram128x8_pa4 26
+arch coreuartapb_lib top_coreuartapb_0_fifo_ctrl_128 translated 26
+module coreuartapb_lib top_coreuartapb_0_fifo_ctrl_128 26
+arch coreuartapb_lib top_coreuartapb_0_fifo_256x8 translated 26
+module coreuartapb_lib top_coreuartapb_0_fifo_256x8 26
+arch coreuartapb_lib top_coreuartapb_0_coreuart translated 28
+module coreuartapb_lib top_coreuartapb_0_coreuart 28
+arch coreuartapb_lib top_coreuartapb_0_coreuartapb translated 29
+module coreuartapb_lib top_coreuartapb_0_coreuartapb 29
+arch work top rtl 33
+module work top 33
 
 # Unbound Instances to File Association
 inst work top_fccc_0_fccc ccc 0
@@ -209,5 +225,5 @@ inst work top_fccc_0_fccc clkint 0
 inst work top_fccc_0_fccc gnd 0
 inst work top_fccc_0_fccc vcc 0
 inst coreabc_lib top_coreabc_0_ram128x8 ram64x18 5
-inst coreuartapb_lib top_coreuartapb_0_ram128x8_pa4 inv 23
-inst work top tx_rx 30
+inst coreuartapb_lib top_coreuartapb_0_ram128x8_pa4 inv 26
+inst work top tx_rx 33

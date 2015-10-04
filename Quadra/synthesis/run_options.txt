@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version I-2014.03M-SP1
 #--  Project file C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\synthesis\run_options.txt
-#--  Written on Sun Oct 04 22:10:06 2015
+#--  Written on Sun Oct 04 22:25:25 2015
 
 
 #project files
@@ -26,6 +26,9 @@ add_file -vhdl -lib COREABC_LIB "C:/Users/kruci_000/Desktop/SoC/i2c/Quadra/compo
 add_file -vhdl -lib COREAPB3_LIB "C:/Users/kruci_000/Desktop/SoC/i2c/Quadra/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3_muxptob3.vhd"
 add_file -vhdl -lib COREAPB3_LIB "C:/Users/kruci_000/Desktop/SoC/i2c/Quadra/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3_iaddr_reg.vhd"
 add_file -vhdl -lib COREAPB3_LIB "C:/Users/kruci_000/Desktop/SoC/i2c/Quadra/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3.vhd"
+add_file -vhdl -lib COREI2C_LIB "C:/Users/kruci_000/Desktop/SoC/i2c/Quadra/component/Actel/DirectCore/COREI2C/7.1.102/rtl/vhdl/core/corei2creal.vhd"
+add_file -vhdl -lib COREI2C_LIB "C:/Users/kruci_000/Desktop/SoC/i2c/Quadra/component/Actel/DirectCore/COREI2C/7.1.102/rtl/vhdl/core/corei2c_pkg.vhd"
+add_file -vhdl -lib COREI2C_LIB "C:/Users/kruci_000/Desktop/SoC/i2c/Quadra/component/Actel/DirectCore/COREI2C/7.1.102/rtl/vhdl/core/corei2c.vhd"
 add_file -vhdl -lib COREUARTAPB_LIB "C:/Users/kruci_000/Desktop/SoC/i2c/Quadra/component/work/top/CoreUARTapb_0/rtl/vhdl/core/Clock_gen.vhd"
 add_file -vhdl -lib COREUARTAPB_LIB "C:/Users/kruci_000/Desktop/SoC/i2c/Quadra/component/work/top/CoreUARTapb_0/rtl/vhdl/core/Tx_async.vhd"
 add_file -vhdl -lib COREUARTAPB_LIB "C:/Users/kruci_000/Desktop/SoC/i2c/Quadra/component/work/top/CoreUARTapb_0/rtl/vhdl/core/Rx_async.vhd"

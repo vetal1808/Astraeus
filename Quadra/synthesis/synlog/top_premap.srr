@@ -9,16 +9,16 @@ Printing clock  summary report in "C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\syn
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled 
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 105MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 106MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 105MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 106MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 105MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 106MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 106MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 107MB)
 
 @W: BN132 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\work\top\coreabc_0\rtl\vhdl\core\coreabc.vhd":430:2:430:3|Removing sequential instance COREABC_0.INSTR_SLOT[0],  because it is equivalent to instance COREABC_0.INSTR_MUXC
 @N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\work\top\coreuartapb_0\rtl\vhdl\core\rx_async.vhd":443:6:443:7|Removing sequential instance clear_parity_en_xhdl3 of view:PrimLib.dffr(prim) in hierarchy view:coreuartapb_lib.top_CoreUARTapb_0_Rx_async_0_0(translated) because there are no references to its outputs 
@@ -36,7 +36,7 @@ System                                     1.0 MHz       1000.000      system   
 top_FCCC_0_FCCC|GL0_net_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_0
 =======================================================================================================
 
-@W: MT530 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\work\top\coreabc_0\rtl\vhdl\core\ramblocks.vhd":310:12:310:13|Found inferred clock top_FCCC_0_FCCC|GL0_net_inferred_clock which controls 176 sequential elements including COREABC_0.URAM\.UR.ADDR7_q. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\work\top\coreabc_0\rtl\vhdl\core\ramblocks.vhd":310:12:310:13|Found inferred clock top_FCCC_0_FCCC|GL0_net_inferred_clock which controls 263 sequential elements including COREABC_0.URAM\.UR.ADDR7_q. This clock has no specified timing constraint which may adversely impact design performance. 
 
 Finished Pre Mapping Phase.
 @N: BN225 |Writing default property annotation file C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\synthesis\top.sap.
@@ -45,6 +45,6 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 135MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sun Oct 04 22:10:10 2015
+# Sun Oct 04 22:25:31 2015
 
 ###########################################################]

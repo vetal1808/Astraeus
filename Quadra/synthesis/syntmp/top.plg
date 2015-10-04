@@ -23,6 +23,6 @@
 @P: top Part : m2s010tq144std
 @P: top Register bits  : 124 
 @P: top DSP Blocks  : 0
-@P: top I/O primitives : 2
+@P: top I/O primitives : 4
 @P: top Block Rams (RAM64x18)  : 1
-@P:  CPU Time : 0h:00m:02s
+@P:  CPU Time : 0h:00m:03s

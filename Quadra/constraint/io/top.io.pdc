@@ -3,7 +3,7 @@
 
 # Version: v11.5 SP3 11.5.3.10
 # Family: SmartFusion2 , Die: M2S010 , Package: 144 TQ
-# Date generated: Sun Oct 04 22:10:48 2015 
+# Date generated: Sun Oct 04 22:27:10 2015 
 
 
 # 
@@ -26,6 +26,18 @@ set_io RX             \
     -pinname 1        \
     -fixed yes        \
     -DIRECTION INPUT
+
+
+set_io {SCLO[0]}       \
+    -pinname 94        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {SDAO[0]}       \
+    -pinname 91        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
 
 
 set_io TX              \

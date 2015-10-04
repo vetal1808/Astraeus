@@ -1,12 +1,15 @@
 Microsemi Corporation - Microsemi Libero Software Release v11.5 SP3 (Version 11.5.3.10)
 
-Date      :  Sun Oct 04 22:09:53 2015
+Date      :  Sun Oct 04 22:23:26 2015
 Project   :  C:\Users\kruci_000\Desktop\SoC\i2c\Quadra
 Component :  top
 Family    :  SmartFusion2
 
 
 HDL source files for all Synthesis and Simulation tools:
+    C:/Users/kruci_000/Desktop/SoC/i2c/Quadra/component/Actel/DirectCore/COREI2C/7.1.102/rtl/vhdl/core/corei2c.vhd
+    C:/Users/kruci_000/Desktop/SoC/i2c/Quadra/component/Actel/DirectCore/COREI2C/7.1.102/rtl/vhdl/core/corei2c_pkg.vhd
+    C:/Users/kruci_000/Desktop/SoC/i2c/Quadra/component/Actel/DirectCore/COREI2C/7.1.102/rtl/vhdl/core/corei2creal.vhd
     C:/Users/kruci_000/Desktop/SoC/i2c/Quadra/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/components.vhd
     C:/Users/kruci_000/Desktop/SoC/i2c/Quadra/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3.vhd
     C:/Users/kruci_000/Desktop/SoC/i2c/Quadra/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3_iaddr_reg.vhd

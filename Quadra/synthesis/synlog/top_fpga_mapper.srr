@@ -32,8 +32,26 @@ Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapse
 Available hyper_sources - for debug and ip models
 	None Found
 
+@N: FA239 :"c:\microsemi\libero_v11.5\synopsys\synplify_i201403msp1\lib\vhd\std.vhd":1:1:1:2|ROM un2_fsmsta_1[4:0] mapped in logic.
+@N: FA239 :"c:\microsemi\libero_v11.5\synopsys\synplify_i201403msp1\lib\vhd\std.vhd":1:1:1:2|ROM un2_fsmsta_1[4:0] mapped in logic.
+@N: MO106 :"c:\microsemi\libero_v11.5\synopsys\synplify_i201403msp1\lib\vhd\std.vhd":1:1:1:2|Found ROM, 'un2_fsmsta_1[4:0]', 29 words by 5 bits 
+@N: FA239 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\coreapb3\4.1.100\rtl\vhdl\core\coreapb3.vhd":648:12:648:15|ROM CoreAPB3_0.iPSELS_raw_4[1:0] mapped in logic.
+@W: MO228 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":636:12:636:13|Optimizing internal tristate to a wire based on don't care (X) analysis
+@W: MO228 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":636:12:636:13|Optimizing internal tristate to a wire based on don't care (X) analysis
+@W: MO228 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":636:12:636:13|Optimizing internal tristate to a wire based on don't care (X) analysis
+@W: MO228 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":636:12:636:13|Optimizing internal tristate to a wire based on don't care (X) analysis
+@W: MO228 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":636:12:636:13|Optimizing internal tristate to a wire based on don't care (X) analysis
+@W: MO228 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":636:12:636:13|Optimizing internal tristate to a wire based on don't care (X) analysis
+@W: MO228 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":636:12:636:13|Optimizing internal tristate to a wire based on don't care (X) analysis
+@W: MO228 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":636:12:636:13|Optimizing internal tristate to a wire based on don't care (X) analysis
+@W: MO228 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":636:12:636:13|Optimizing internal tristate to a wire based on don't care (X) analysis
+@W: MO228 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":636:12:636:13|Optimizing internal tristate to a wire based on don't care (X) analysis
+@W: MO228 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":636:12:636:13|Optimizing internal tristate to a wire based on don't care (X) analysis
+@W: MO228 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":636:12:636:13|Optimizing internal tristate to a wire based on don't care (X) analysis
+@W: MO228 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":636:12:636:13|Optimizing internal tristate to a wire based on don't care (X) analysis
+@W: MO228 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":636:12:636:13|Optimizing internal tristate to a wire based on don't care (X) analysis
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
 
 Encoding state machine ICYCLE[0:3] (view:coreabc_lib.top_COREABC_0_COREABC_19_8_8_2_8_0_2_2_1_4_1_1_1_1_1_1_1_1_1_1_0_1_2_0_1_1_0_0_1_1_0_11_0_1_0_13_32(rtl))
 original code -> new code
@@ -43,7 +61,6 @@ original code -> new code
    11 -> 11
 @N: MO225 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\work\top\coreabc_0\rtl\vhdl\core\coreabc.vhd":869:2:869:3|No possible illegal states for state machine ICYCLE[0:3],safe FSM implementation is disabled
 @N: FX404 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\work\top\coreabc_0\rtl\vhdl\core\coreabc.vhd":672:3:672:4|Found addmux in view:coreabc_lib.top_COREABC_0_COREABC_19_8_8_2_8_0_2_2_1_4_1_1_1_1_1_1_1_1_1_1_0_1_2_0_1_1_0_0_1_1_0_11_0_1_0_13_32(rtl) inst un1_ACCUMULATOR_m[7:0] from un1_ACCUMULATOR_1[7:0] 
-@N: FX404 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\work\top\coreabc_0\rtl\vhdl\core\coreabc.vhd":672:3:672:4|Found addmux in view:coreabc_lib.top_COREABC_0_COREABC_19_8_8_2_8_0_2_2_1_4_1_1_1_1_1_1_1_1_1_1_0_1_2_0_1_1_0_0_1_1_0_11_0_1_0_13_32(rtl) inst un1_ACCUMULATOR_0_s0[7:0] from un1_ACCUMULATOR_0_d0[7:0] 
 @W: MO129 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\work\top\coreabc_0\rtl\vhdl\core\coreabc.vhd":430:2:430:3|Sequential instance COREABC_0.INSTR_ADDR[0] reduced to a combinational gate by constant propagation
 @W: MO129 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\work\top\coreabc_0\rtl\vhdl\core\coreabc.vhd":430:2:430:3|Sequential instance COREABC_0.INSTR_ADDR[1] reduced to a combinational gate by constant propagation
 @W: MO129 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\work\top\coreabc_0\rtl\vhdl\core\coreabc.vhd":430:2:430:3|Sequential instance COREABC_0.INSTR_ADDR[3] reduced to a combinational gate by constant propagation
@@ -74,6 +91,34 @@ original code -> new code
 @W: MO129 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\work\top\coreabc_0\rtl\vhdl\core\ramblocks.vhd":310:12:310:13|Sequential instance COREABC_0.URAM.UR.ADDR7_q reduced to a combinational gate by constant propagation
 @N: BN114 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\work\top\coreabc_0\rtl\vhdl\core\ram128x8_smartfusion2.vhd":103:4:103:13|Removing instance URAM\.UR.UG4\.UR8\.ram_r0c0.U_RAM64x18 of black_box view:smartfusion2.RAM64x18(syn_black_box) because there are no references to its outputs 
 @N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\work\top\coreabc_0\rtl\vhdl\core\coreabc.vhd":869:2:869:3|Removing sequential instance IO_OUT[0] in hierarchy view:coreabc_lib.top_COREABC_0_COREABC_19_8_8_2_8_0_2_2_1_4_1_1_1_1_1_1_1_1_1_1_0_1_2_0_1_1_0_0_1_1_0_11_0_1_0_13_32(rtl) because there are no references to its outputs 
+Encoding state machine fsmmod[0:6] (view:corei2c_lib.COREI2CREAL_19_0_1_0_0_3_0_0_30_1_66_0_0_0(rtl))
+original code -> new code
+   0000001 -> 0000000
+   0000010 -> 0000011
+   0000100 -> 0000101
+   0001000 -> 0001001
+   0010000 -> 0010001
+   0100000 -> 0100001
+   1000000 -> 1000001
+Encoding state machine fsmsync[0:7] (view:corei2c_lib.COREI2CREAL_19_0_1_0_0_3_0_0_30_1_66_0_0_0(rtl))
+original code -> new code
+   00000001 -> 00000000
+   00000010 -> 00000011
+   00000100 -> 00000101
+   00001000 -> 00001001
+   00010000 -> 00010001
+   00100000 -> 00100001
+   01000000 -> 01000001
+   10000000 -> 10000001
+Encoding state machine fsmdet[0:6] (view:corei2c_lib.COREI2CREAL_19_0_1_0_0_3_0_0_30_1_66_0_0_0(rtl))
+original code -> new code
+   0000001 -> 0000000
+   0000010 -> 0000011
+   0000100 -> 0000101
+   0001000 -> 0001001
+   0010000 -> 0010001
+   0100000 -> 0100001
+   1000000 -> 1000001
 @N:"c:\users\kruci_000\desktop\soc\i2c\quadra\component\work\top\coreuartapb_0\rtl\vhdl\core\clock_gen.vhd":214:11:214:12|Found counter in view:coreuartapb_lib.top_CoreUARTapb_0_Clock_gen_0_0(rtl) inst baud_cntr[12:0]
 Encoding state machine xmit_state[0:5] (view:coreuartapb_lib.top_CoreUARTapb_0_Tx_async_0_0(translated))
 original code -> new code
@@ -109,6 +154,17 @@ original code -> new code
 @W: BN132 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\work\top\coreuartapb_0\rtl\vhdl\core\coreuartapb.vhd":324:6:324:7|Removing instance CoreUARTapb_0.controlReg2[2],  because it is equivalent to instance CoreUARTapb_0.controlReg1[0]
 @W: BN132 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\work\top\coreuartapb_0\rtl\vhdl\core\coreuartapb.vhd":324:6:324:7|Removing instance CoreUARTapb_0.controlReg2[1],  because it is equivalent to instance CoreUARTapb_0.controlReg1[0]
 @W: BN132 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\work\top\coreuartapb_0\rtl\vhdl\core\coreuartapb.vhd":324:6:324:7|Removing instance CoreUARTapb_0.controlReg2[0],  because it is equivalent to instance CoreUARTapb_0.controlReg1[0]
+@W: BN132 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":539:8:539:9|Removing instance COREI2C_0.G0a.0.ui2c.sercon[2],  because it is equivalent to instance COREI2C_0.G0a.0.ui2c.sercon[1]
+@W: BN132 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":539:8:539:9|Removing instance COREI2C_0.G0a.0.ui2c.sercon[1],  because it is equivalent to instance COREI2C_0.G0a.0.ui2c.sercon[0]
+@W: BN132 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":539:8:539:9|Removing instance COREI2C_0.G0a.0.ui2c.sercon[7],  because it is equivalent to instance COREI2C_0.G0a.0.ui2c.sercon[0]
+@W: BN132 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":539:8:539:9|Removing instance COREI2C_0.G0a.0.ui2c.sercon[6],  because it is equivalent to instance COREI2C_0.G0a.0.ui2c.sercon[0]
+@W: BN132 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":539:8:539:9|Removing instance COREI2C_0.G0a.0.ui2c.sercon[5],  because it is equivalent to instance COREI2C_0.G0a.0.ui2c.sercon[0]
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":754:8:754:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.sersta[0] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":754:8:754:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.sersta[1] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":754:8:754:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.sersta[2] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":754:8:754:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.sersta[3] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":754:8:754:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.sersta[4] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":539:8:539:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.sercon[0] in hierarchy view:work.top(rtl) because there are no references to its outputs 
 @N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\work\top\coreuartapb_0\rtl\vhdl\core\rx_async.vhd":399:6:399:7|Removing sequential instance CoreUARTapb_0.uUART.make_RX.parity_err_xhdl2 in hierarchy view:work.top(rtl) because there are no references to its outputs 
 @N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\work\top\coreuartapb_0\rtl\vhdl\core\coreuartapb.vhd":296:6:296:7|Removing sequential instance CoreUARTapb_0.controlReg1[0] in hierarchy view:work.top(rtl) because there are no references to its outputs 
 @N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\work\top\coreuartapb_0\rtl\vhdl\core\rx_async.vhd":194:6:194:7|Removing sequential instance CoreUARTapb_0.uUART.make_RX.overflow_xhdl1 in hierarchy view:work.top(rtl) because there are no references to its outputs 
@@ -116,36 +172,112 @@ original code -> new code
 @N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\work\top\coreuartapb_0\rtl\vhdl\core\rx_async.vhd":264:6:264:7|Removing sequential instance CoreUARTapb_0.uUART.make_RX.overflow_int in hierarchy view:work.top(rtl) because there are no references to its outputs 
 @N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\work\top\coreuartapb_0\rtl\vhdl\core\rx_async.vhd":264:6:264:7|Removing sequential instance CoreUARTapb_0.uUART.make_RX.framing_error_int in hierarchy view:work.top(rtl) because there are no references to its outputs 
 
-Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 136MB)
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 148MB peak: 148MB)
 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":629:8:629:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.ack_bit in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":629:8:629:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.bsd7 in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":2303:8:2303:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.SCLSCL in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":629:8:629:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.bsd7_tmp in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":629:8:629:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.serdat[7] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":2332:8:2332:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.starto_en in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@W: BN132 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":2476:8:2476:9|Removing instance COREI2C_0.G0a.0.ui2c.fsmmod[3],  because it is equivalent to instance COREI2C_0.G0a.0.ui2c.fsmmod[2]
+@W: BN132 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":2476:8:2476:9|Removing instance COREI2C_0.G0a.0.ui2c.fsmmod[4],  because it is equivalent to instance COREI2C_0.G0a.0.ui2c.fsmmod[2]
+@W: BN132 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":2476:8:2476:9|Removing instance COREI2C_0.G0a.0.ui2c.fsmmod[5],  because it is equivalent to instance COREI2C_0.G0a.0.ui2c.fsmmod[2]
+@W: BN132 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":2476:8:2476:9|Removing instance COREI2C_0.G0a.0.ui2c.fsmmod[2],  because it is equivalent to instance COREI2C_0.G0a.0.ui2c.fsmmod[0]
+@W: BN132 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":2476:8:2476:9|Removing instance COREI2C_0.G0a.0.ui2c.fsmmod[1],  because it is equivalent to instance COREI2C_0.G0a.0.ui2c.fsmmod[0]
+@W: BN132 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":539:8:539:9|Removing instance COREI2C_0.G0a.0.ui2c.sercon[4],  because it is equivalent to instance COREI2C_0.G0a.0.ui2c.fsmmod[0]
+@W: BN132 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":1013:8:1013:9|Removing instance COREI2C_0.G0a.0.ui2c.SDAI_ff_reg[2],  because it is equivalent to instance COREI2C_0.G0a.0.ui2c.SDAI_ff_reg[1]
+@W: BN132 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":1013:8:1013:9|Removing instance COREI2C_0.G0a.0.ui2c.SDAI_ff_reg[1],  because it is equivalent to instance COREI2C_0.G0a.0.ui2c.SDAI_ff_reg[0]
+@W: BN132 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":1553:8:1553:9|Removing instance COREI2C_0.G0a.0.ui2c.SCLO_int,  because it is equivalent to instance COREI2C_0.G0a.0.ui2c.fsmmod[6]
+@W: BN132 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":953:8:953:9|Removing instance COREI2C_0.G0a.0.ui2c.SCLI_ff_reg[2],  because it is equivalent to instance COREI2C_0.G0a.0.ui2c.fsmmod[6]
+@W: BN132 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":953:8:953:9|Removing instance COREI2C_0.G0a.0.ui2c.SCLI_ff_reg[1],  because it is equivalent to instance COREI2C_0.G0a.0.ui2c.fsmmod[6]
+@W: BN132 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":953:8:953:9|Removing instance COREI2C_0.G0a.0.ui2c.SCLI_ff_reg[0],  because it is equivalent to instance COREI2C_0.G0a.0.ui2c.fsmmod[6]
+@W: BN132 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":970:8:970:9|Removing instance COREI2C_0.G0a.0.ui2c.SCLInt,  because it is equivalent to instance COREI2C_0.G0a.0.ui2c.fsmmod[6]
+@W: BN132 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":404:8:404:9|Removing instance COREI2C_0.G0a.0.ui2c.SDAO_int,  because it is equivalent to instance COREI2C_0.G0a.0.ui2c.fsmmod[6]
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":629:8:629:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.serdat[0] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":629:8:629:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.serdat[1] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":629:8:629:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.serdat[2] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":629:8:629:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.serdat[3] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":629:8:629:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.serdat[4] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":629:8:629:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.serdat[5] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":629:8:629:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.serdat[6] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":970:8:970:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.nedetect in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":970:8:970:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.pedetect in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":2476:8:2476:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.fsmmod[0] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":2476:8:2476:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.fsmmod[6] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":1553:8:1553:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.fsmsync[0] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":1553:8:1553:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.fsmsync[7] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":1553:8:1553:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.fsmsync[6] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":1553:8:1553:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.fsmsync[5] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":1553:8:1553:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.fsmsync[4] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":1553:8:1553:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.fsmsync[3] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":1553:8:1553:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.fsmsync[2] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":1553:8:1553:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.fsmsync[1] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":2269:8:2269:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.busfree in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":1396:8:1396:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.PCLKint_ff in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":1129:8:1129:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.indelay[2] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":1129:8:1129:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.indelay[3] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":1129:8:1129:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.indelay[0] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":1129:8:1129:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.indelay[1] in hierarchy view:work.top(rtl) because there are no references to its outputs 
 
-Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 136MB)
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 148MB)
 
 @N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\work\top\coreuartapb_0\rtl\vhdl\core\rx_async.vhd":375:6:375:7|Removing sequential instance CoreUARTapb_0.uUART.make_RX.rx_parity_calc in hierarchy view:work.top(rtl) because there are no references to its outputs 
 @N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\work\top\coreuartapb_0\rtl\vhdl\core\rx_async.vhd":333:6:333:7|Removing sequential instance CoreUARTapb_0.uUART.make_RX.rx_shift[8] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":1339:8:1339:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.PCLK_count2_ov in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":1240:8:1240:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.PCLK_count1_ov in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":2242:8:2242:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.fsmdet[0] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":2242:8:2242:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.fsmdet[1] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":2242:8:2242:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.fsmdet[2] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":2242:8:2242:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.fsmdet[3] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":2242:8:2242:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.fsmdet[4] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":2242:8:2242:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.fsmdet[5] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":2242:8:2242:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.fsmdet[6] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":539:8:539:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.sercon[3] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":1240:8:1240:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.PCLK_count1[3] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":1240:8:1240:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.PCLK_count1[2] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":1240:8:1240:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.PCLK_count1[1] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":1240:8:1240:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.PCLK_count1[0] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":1339:8:1339:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.PCLK_count2[1] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":1339:8:1339:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.PCLK_count2[0] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":1155:8:1155:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.framesync[3] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":1155:8:1155:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.framesync[2] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":1155:8:1155:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.framesync[1] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":1155:8:1155:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.framesync[0] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":1013:8:1013:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.SDAI_ff_reg[0] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":1030:8:1030:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.SDAInt in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":1053:8:1053:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.adrcompen in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":1053:8:1053:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.adrcomp in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":1396:8:1396:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.PCLKint in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":629:8:629:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.ack in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":2058:8:2058:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.fsmsta[4] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":2058:8:2058:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.fsmsta[3] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":2058:8:2058:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.fsmsta[2] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":2058:8:2058:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.fsmsta[1] in hierarchy view:work.top(rtl) because there are no references to its outputs 
+@N: BN362 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\actel\directcore\corei2c\7.1.102\rtl\vhdl\core\corei2creal.vhd":2058:8:2058:9|Removing sequential instance COREI2C_0.G0a\.0\.ui2c.fsmsta[0] in hierarchy view:work.top(rtl) because there are no references to its outputs 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 148MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 148MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 148MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 148MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 136MB)
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 148MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 136MB peak: 137MB)
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 148MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:01s		    -9.36ns		 206 /       124
+   1		0h:00m:01s		    -9.36ns		 196 /       124
 ------------------------------------------------------------
 
 
@@ -153,14 +285,14 @@ Pass		 CPU time		Worst Slack		Luts / Registers
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:01s		    -8.89ns		 204 /       124
+   1		0h:00m:01s		    -8.89ns		 196 /       124
 ------------------------------------------------------------
 
 
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:01s		    -8.89ns		 204 /       124
+   1		0h:00m:01s		    -8.89ns		 196 /       124
 ------------------------------------------------------------
 
 @N: FP130 |Promoting Net COREABC_0_PRESETN on CLKINT  I_50 
@@ -170,10 +302,10 @@ Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 136MB peak: 137MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 139MB peak: 148MB)
 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 136MB peak: 137MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 139MB peak: 148MB)
 
 
 
@@ -195,18 +327,18 @@ Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample I
 
 Writing Analyst data base C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\synthesis\top.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 135MB peak: 137MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 135MB peak: 148MB)
 
 Writing Analyst data base C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\synthesis\synwork\top_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 135MB peak: 137MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 135MB peak: 148MB)
 
 Writing EDIF Netlist and constraint files
 @N: BW103 |Synopsys Constraint File time units using default value of 1ns 
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
 I-2014.03M-SP1
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 136MB peak: 138MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 137MB peak: 148MB)
 
 @W: MT246 :"c:\users\kruci_000\desktop\soc\i2c\quadra\component\work\top\fccc_0\top_fccc_0_fccc.vhd":106:4:106:11|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
 @W: MT420 |Found inferred clock top_FCCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:FCCC_0.GL0_net"
@@ -214,7 +346,7 @@ Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s
 
 
 @S |##### START OF TIMING REPORT #####[
-# Timing Report written on Sun Oct 04 22:10:13 2015
+# Timing Report written on Sun Oct 04 22:25:34 2015
 #
 
 
@@ -277,20 +409,20 @@ Detailed Report for Clock: top_FCCC_0_FCCC|GL0_net_inferred_clock
 Starting Points with Worst Slack
 ********************************
 
-                                                                      Starting                                                                       Arrival          
-Instance                                                              Reference                                  Type     Pin     Net                Time        Slack
-                                                                      Clock                                                                                           
+                                                                       Starting                                                                      Arrival          
+Instance                                                               Reference                                  Type     Pin     Net               Time        Slack
+                                                                       Clock                                                                                          
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-CoreUARTapb_0.uUART.make_top_CoreUARTapb_0_Clock_gen.baud_cntr[6]     top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       baud_cntr[6]       0.087       4.737
-CoreUARTapb_0.uUART.make_top_CoreUARTapb_0_Clock_gen.baud_cntr[0]     top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       baud_cntr[0]       0.087       4.857
-CoreUARTapb_0.uUART.make_top_CoreUARTapb_0_Clock_gen.baud_cntr[7]     top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       baud_cntr[7]       0.108       4.959
-CoreUARTapb_0.uUART.make_top_CoreUARTapb_0_Clock_gen.baud_cntr[2]     top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       baud_cntr[2]       0.087       4.979
-COREABC_0.ACCUMULATOR[0]                                              top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       ACCUMULATOR[0]     0.108       5.013
-COREABC_0.ACCUMULATOR[1]                                              top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       ACCUMULATOR[1]     0.108       5.014
-COREABC_0.ACCUMULATOR[2]                                              top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       ACCUMULATOR[2]     0.108       5.031
-CoreUARTapb_0.uUART.make_top_CoreUARTapb_0_Clock_gen.baud_cntr[8]     top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       baud_cntr[8]       0.108       5.035
-COREABC_0.ACCUMULATOR[3]                                              top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       ACCUMULATOR[3]     0.108       5.074
-CoreUARTapb_0.uUART.make_top_CoreUARTapb_0_Clock_gen.baud_cntr[9]     top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       baud_cntr[9]       0.108       5.085
+CoreUARTapb_0.uUART.make_top_CoreUARTapb_0_Clock_gen.baud_cntr[6]      top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       baud_cntr[6]      0.087       4.737
+CoreUARTapb_0.uUART.make_top_CoreUARTapb_0_Clock_gen.baud_cntr[0]      top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       baud_cntr[0]      0.087       4.857
+CoreUARTapb_0.uUART.make_top_CoreUARTapb_0_Clock_gen.baud_cntr[7]      top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       baud_cntr[7]      0.108       4.959
+CoreUARTapb_0.uUART.make_top_CoreUARTapb_0_Clock_gen.baud_cntr[2]      top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       baud_cntr[2]      0.087       4.979
+CoreUARTapb_0.uUART.make_top_CoreUARTapb_0_Clock_gen.baud_cntr[8]      top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       baud_cntr[8]      0.108       5.035
+CoreUARTapb_0.uUART.make_top_CoreUARTapb_0_Clock_gen.baud_cntr[9]      top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       baud_cntr[9]      0.108       5.085
+CoreUARTapb_0.uUART.make_top_CoreUARTapb_0_Clock_gen.baud_cntr[1]      top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       baud_cntr[1]      0.087       5.104
+COREABC_0.INSTR_SCMD[1]                                                top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       INSTR_SCMD[1]     0.108       5.183
+CoreUARTapb_0.uUART.make_top_CoreUARTapb_0_Clock_gen.baud_cntr[10]     top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       baud_cntr[10]     0.087       5.186
+CoreUARTapb_0.uUART.make_top_CoreUARTapb_0_Clock_gen.baud_cntr[3]      top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       baud_cntr[3]      0.108       5.201
 ======================================================================================================================================================================
 
 
@@ -464,12 +596,12 @@ CCC             1 use
 CLKINT          2 uses
 RCOSC_25_50MHZ  1 use
 CFG1           6 uses
-CFG2           42 uses
+CFG2           40 uses
 CFG3           42 uses
-CFG4           84 uses
+CFG4           77 uses
 
 Carry primitives used for arithmetic functions:
-ARI1           29 uses
+ARI1           30 uses
 
 
 Sequential Cells: 
@@ -477,10 +609,10 @@ SLE            124 uses
 
 DSP Blocks:    0
 
-I/O ports: 2
-I/O primitives: 2
+I/O ports: 4
+I/O primitives: 4
 INBUF          1 use
-OUTBUF         1 use
+OUTBUF         3 uses
 
 
 Global Clock Buffers: 2
@@ -489,7 +621,7 @@ Global Clock Buffers: 2
 RAM/ROM usage summary
 Block Rams (RAM64x18) : 1
 
-Total LUTs:    203
+Total LUTs:    195
 
 Extra resources required for RAM and MACC interface logic during P&R:
 
@@ -498,13 +630,13 @@ RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
 MACC     Interface Logic : SLEs = 0; LUTs = 0;
 
 Total number of SLEs after P&R:  124 + 36 + 0 + 0 = 160;
-Total number of LUTs after P&R:  203 + 36 + 0 + 0 = 239;
+Total number of LUTs after P&R:  195 + 36 + 0 + 0 = 231;
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 50MB peak: 138MB)
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 51MB peak: 148MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Sun Oct 04 22:10:13 2015
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Sun Oct 04 22:25:34 2015
 
 ###########################################################]

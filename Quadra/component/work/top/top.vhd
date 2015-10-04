@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------
--- Created by SmartDesign Sun Oct 04 22:09:49 2015
+-- Created by SmartDesign Sun Oct 04 22:23:23 2015
 -- Version: v11.5 SP3 11.5.3.10
 ----------------------------------------------------------------------
 
@@ -17,6 +17,8 @@ use COREABC_LIB.top_COREABC_0_components.all;
 library COREAPB3_LIB;
 use COREAPB3_LIB.all;
 use COREAPB3_LIB.components.all;
+library COREI2C_LIB;
+use COREI2C_LIB.all;
 library COREUARTAPB_LIB;
 use COREUARTAPB_LIB.all;
 use COREUARTAPB_LIB.top_CoreUARTapb_0_components.all;
@@ -27,9 +29,11 @@ entity top is
     -- Port list
     port(
         -- Inputs
-        RX : in  std_logic;
+        RX   : in  std_logic;
         -- Outputs
-        TX : out std_logic
+        SCLO : out std_logic_vector(0 to 0);
+        SDAO : out std_logic_vector(0 to 0);
+        TX   : out std_logic
         );
 end top;
 ----------------------------------------------------------------------
@@ -115,6 +119,51 @@ component top_COREABC_0_COREABC
 end component;
 -- CoreAPB3   -   Actel:DirectCore:CoreAPB3:4.1.100
 -- using entity instantiation for component CoreAPB3
+-- COREI2C   -   Actel:DirectCore:COREI2C:7.1.102
+component COREI2C
+    generic( 
+        ADD_SLAVE1_ADDRESS_EN   : integer := 0 ;
+        BAUD_RATE_FIXED         : integer := 1 ;
+        BAUD_RATE_VALUE         : integer := 0 ;
+        BCLK_ENABLED            : integer := 0 ;
+        FAMILY                  : integer := 19 ;
+        FIXED_SLAVE0_ADDR_EN    : integer := 1 ;
+        FIXED_SLAVE0_ADDR_VALUE : integer := 16#42# ;
+        FIXED_SLAVE1_ADDR_EN    : integer := 0 ;
+        FIXED_SLAVE1_ADDR_VALUE : integer := 16#0# ;
+        FREQUENCY               : integer := 30 ;
+        GLITCHREG_NUM           : integer := 3 ;
+        I2C_NUM                 : integer := 1 ;
+        IPMI_EN                 : integer := 0 ;
+        OPERATING_MODE          : integer := 0 ;
+        SMB_EN                  : integer := 0 
+        );
+    -- Port list
+    port(
+        -- Inputs
+        BCLK        : in  std_logic;
+        PADDR       : in  std_logic_vector(8 downto 0);
+        PCLK        : in  std_logic;
+        PENABLE     : in  std_logic;
+        PRESETN     : in  std_logic;
+        PSEL        : in  std_logic;
+        PWDATA      : in  std_logic_vector(7 downto 0);
+        PWRITE      : in  std_logic;
+        SCLI        : in  std_logic_vector(0 to 0);
+        SDAI        : in  std_logic_vector(0 to 0);
+        SMBALERT_NI : in  std_logic_vector(0 to 0);
+        SMBSUS_NI   : in  std_logic_vector(0 to 0);
+        -- Outputs
+        INT         : out std_logic_vector(0 to 0);
+        PRDATA      : out std_logic_vector(7 downto 0);
+        SCLO        : out std_logic_vector(0 to 0);
+        SDAO        : out std_logic_vector(0 to 0);
+        SMBALERT_NO : out std_logic_vector(0 to 0);
+        SMBA_INT    : out std_logic_vector(0 to 0);
+        SMBSUS_NO   : out std_logic_vector(0 to 0);
+        SMBS_INT    : out std_logic_vector(0 to 0)
+        );
+end component;
 -- top_CoreUARTapb_0_CoreUARTapb   -   Actel:DirectCore:CoreUARTapb:5.5.101
 component top_CoreUARTapb_0_CoreUARTapb
     generic( 
@@ -203,14 +252,19 @@ signal CoreAPB3_0_APBmslave0_PREADY                    : std_logic;
 signal CoreAPB3_0_APBmslave0_PSELx                     : std_logic;
 signal CoreAPB3_0_APBmslave0_PSLVERR                   : std_logic;
 signal CoreAPB3_0_APBmslave0_PWRITE                    : std_logic;
+signal CoreAPB3_0_APBmslave1_PSELx                     : std_logic;
 signal CoreUARTapb_0_RXRDY                             : std_logic;
 signal CoreUARTapb_0_TXRDY                             : std_logic;
 signal FCCC_0_GL0                                      : std_logic;
 signal FCCC_0_LOCK                                     : std_logic;
 signal OSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC : std_logic;
+signal SCLO_net_0                                      : std_logic_vector(0 to 0);
+signal SDAO_net_0                                      : std_logic_vector(0 to 0);
 signal TX_net_0                                        : std_logic;
 signal tx_rx_0_tx_rx                                   : std_logic_vector(1 downto 0);
 signal TX_net_1                                        : std_logic;
+signal SCLO_net_1                                      : std_logic_vector(0 to 0);
+signal SDAO_net_1                                      : std_logic_vector(0 to 0);
 ----------------------------------------------------------------------
 -- TiedOff Signals
 ----------------------------------------------------------------------
@@ -223,7 +277,6 @@ signal PWDATA_S_const_net_0                            : std_logic_vector(7 down
 signal IADDR_const_net_0                               : std_logic_vector(31 downto 0);
 signal PADDR_const_net_0                               : std_logic_vector(7 downto 2);
 signal PWDATA_const_net_0                              : std_logic_vector(7 downto 0);
-signal PRDATAS1_const_net_0                            : std_logic_vector(31 downto 0);
 signal PRDATAS2_const_net_0                            : std_logic_vector(31 downto 0);
 signal PRDATAS3_const_net_0                            : std_logic_vector(31 downto 0);
 signal PRDATAS4_const_net_0                            : std_logic_vector(31 downto 0);
@@ -259,6 +312,8 @@ signal COREABC_0_APB3master_PWDATA_0                   : std_logic_vector(31 dow
 signal CoreAPB3_0_APBmslave0_PADDR                     : std_logic_vector(31 downto 0);
 signal CoreAPB3_0_APBmslave0_PADDR_0_4to0              : std_logic_vector(4 downto 0);
 signal CoreAPB3_0_APBmslave0_PADDR_0                   : std_logic_vector(4 downto 0);
+signal CoreAPB3_0_APBmslave0_PADDR_1_8to0              : std_logic_vector(8 downto 0);
+signal CoreAPB3_0_APBmslave0_PADDR_1                   : std_logic_vector(8 downto 0);
 
 signal CoreAPB3_0_APBmslave0_PRDATA_0_31to8            : std_logic_vector(31 downto 8);
 signal CoreAPB3_0_APBmslave0_PRDATA_0_7to0             : std_logic_vector(7 downto 0);
@@ -268,6 +323,13 @@ signal CoreAPB3_0_APBmslave0_PRDATA                    : std_logic_vector(7 down
 signal CoreAPB3_0_APBmslave0_PWDATA                    : std_logic_vector(31 downto 0);
 signal CoreAPB3_0_APBmslave0_PWDATA_0_7to0             : std_logic_vector(7 downto 0);
 signal CoreAPB3_0_APBmslave0_PWDATA_0                  : std_logic_vector(7 downto 0);
+signal CoreAPB3_0_APBmslave0_PWDATA_1_7to0             : std_logic_vector(7 downto 0);
+signal CoreAPB3_0_APBmslave0_PWDATA_1                  : std_logic_vector(7 downto 0);
+
+signal CoreAPB3_0_APBmslave1_PRDATA_0_31to8            : std_logic_vector(31 downto 8);
+signal CoreAPB3_0_APBmslave1_PRDATA_0_7to0             : std_logic_vector(7 downto 0);
+signal CoreAPB3_0_APBmslave1_PRDATA_0                  : std_logic_vector(31 downto 0);
+signal CoreAPB3_0_APBmslave1_PRDATA                    : std_logic_vector(7 downto 0);
 
 
 begin
@@ -283,7 +345,6 @@ begin
  IADDR_const_net_0     <= B"00000000000000000000000000000000";
  PADDR_const_net_0     <= B"000000";
  PWDATA_const_net_0    <= B"00000000";
- PRDATAS1_const_net_0  <= B"00000000000000000000000000000000";
  PRDATAS2_const_net_0  <= B"00000000000000000000000000000000";
  PRDATAS3_const_net_0  <= B"00000000000000000000000000000000";
  PRDATAS4_const_net_0  <= B"00000000000000000000000000000000";
@@ -302,8 +363,12 @@ begin
 ----------------------------------------------------------------------
 -- Top level output port assignments
 ----------------------------------------------------------------------
- TX_net_1 <= TX_net_0;
- TX       <= TX_net_1;
+ TX_net_1      <= TX_net_0;
+ TX            <= TX_net_1;
+ SCLO_net_1(0) <= SCLO_net_0(0);
+ SCLO(0)       <= SCLO_net_1(0);
+ SDAO_net_1(0) <= SDAO_net_0(0);
+ SDAO(0)       <= SDAO_net_1(0);
 ----------------------------------------------------------------------
 -- Bus Interface Nets Assignments - Unequal Pin Widths
 ----------------------------------------------------------------------
@@ -320,6 +385,8 @@ begin
 
  CoreAPB3_0_APBmslave0_PADDR_0_4to0(4 downto 0) <= CoreAPB3_0_APBmslave0_PADDR(4 downto 0);
  CoreAPB3_0_APBmslave0_PADDR_0 <= ( CoreAPB3_0_APBmslave0_PADDR_0_4to0(4 downto 0) );
+ CoreAPB3_0_APBmslave0_PADDR_1_8to0(8 downto 0) <= CoreAPB3_0_APBmslave0_PADDR(8 downto 0);
+ CoreAPB3_0_APBmslave0_PADDR_1 <= ( CoreAPB3_0_APBmslave0_PADDR_1_8to0(8 downto 0) );
 
  CoreAPB3_0_APBmslave0_PRDATA_0_31to8(31 downto 8) <= B"000000000000000000000000";
  CoreAPB3_0_APBmslave0_PRDATA_0_7to0(7 downto 0) <= CoreAPB3_0_APBmslave0_PRDATA(7 downto 0);
@@ -327,6 +394,12 @@ begin
 
  CoreAPB3_0_APBmslave0_PWDATA_0_7to0(7 downto 0) <= CoreAPB3_0_APBmslave0_PWDATA(7 downto 0);
  CoreAPB3_0_APBmslave0_PWDATA_0 <= ( CoreAPB3_0_APBmslave0_PWDATA_0_7to0(7 downto 0) );
+ CoreAPB3_0_APBmslave0_PWDATA_1_7to0(7 downto 0) <= CoreAPB3_0_APBmslave0_PWDATA(7 downto 0);
+ CoreAPB3_0_APBmslave0_PWDATA_1 <= ( CoreAPB3_0_APBmslave0_PWDATA_1_7to0(7 downto 0) );
+
+ CoreAPB3_0_APBmslave1_PRDATA_0_31to8(31 downto 8) <= B"000000000000000000000000";
+ CoreAPB3_0_APBmslave1_PRDATA_0_7to0(7 downto 0) <= CoreAPB3_0_APBmslave1_PRDATA(7 downto 0);
+ CoreAPB3_0_APBmslave1_PRDATA_0 <= ( CoreAPB3_0_APBmslave1_PRDATA_0_31to8(31 downto 8) & CoreAPB3_0_APBmslave1_PRDATA_0_7to0(7 downto 0) );
 
 ----------------------------------------------------------------------
 -- Component instances
@@ -408,7 +481,7 @@ CoreAPB3_0 : entity COREAPB3_LIB.CoreAPB3
     generic map( 
         APB_DWIDTH      => ( 32 ),
         APBSLOT0ENABLE  => ( 1 ),
-        APBSLOT1ENABLE  => ( 0 ),
+        APBSLOT1ENABLE  => ( 1 ),
         APBSLOT2ENABLE  => ( 0 ),
         APBSLOT3ENABLE  => ( 0 ),
         APBSLOT4ENABLE  => ( 0 ),
@@ -456,7 +529,7 @@ CoreAPB3_0 : entity COREAPB3_LIB.CoreAPB3
         PRDATAS0   => CoreAPB3_0_APBmslave0_PRDATA_0,
         PREADYS0   => CoreAPB3_0_APBmslave0_PREADY,
         PSLVERRS0  => CoreAPB3_0_APBmslave0_PSLVERR,
-        PRDATAS1   => PRDATAS1_const_net_0, -- tied to X"0" from definition
+        PRDATAS1   => CoreAPB3_0_APBmslave1_PRDATA_0,
         PREADYS1   => VCC_net, -- tied to '1' from definition
         PSLVERRS1  => GND_net, -- tied to '0' from definition
         PRDATAS2   => PRDATAS2_const_net_0, -- tied to X"0" from definition
@@ -514,7 +587,7 @@ CoreAPB3_0 : entity COREAPB3_LIB.CoreAPB3
         PENABLES   => CoreAPB3_0_APBmslave0_PENABLE,
         PWDATAS    => CoreAPB3_0_APBmslave0_PWDATA,
         PSELS0     => CoreAPB3_0_APBmslave0_PSELx,
-        PSELS1     => OPEN,
+        PSELS1     => CoreAPB3_0_APBmslave1_PSELx,
         PSELS2     => OPEN,
         PSELS3     => OPEN,
         PSELS4     => OPEN,
@@ -530,6 +603,49 @@ CoreAPB3_0 : entity COREAPB3_LIB.CoreAPB3
         PSELS14    => OPEN,
         PSELS15    => OPEN,
         PSELS16    => OPEN 
+        );
+-- COREI2C_0   -   Actel:DirectCore:COREI2C:7.1.102
+COREI2C_0 : COREI2C
+    generic map( 
+        ADD_SLAVE1_ADDRESS_EN   => ( 0 ),
+        BAUD_RATE_FIXED         => ( 1 ),
+        BAUD_RATE_VALUE         => ( 0 ),
+        BCLK_ENABLED            => ( 0 ),
+        FAMILY                  => ( 19 ),
+        FIXED_SLAVE0_ADDR_EN    => ( 1 ),
+        FIXED_SLAVE0_ADDR_VALUE => ( 16#42# ),
+        FIXED_SLAVE1_ADDR_EN    => ( 0 ),
+        FIXED_SLAVE1_ADDR_VALUE => ( 16#0# ),
+        FREQUENCY               => ( 30 ),
+        GLITCHREG_NUM           => ( 3 ),
+        I2C_NUM                 => ( 1 ),
+        IPMI_EN                 => ( 0 ),
+        OPERATING_MODE          => ( 0 ),
+        SMB_EN                  => ( 0 )
+        )
+    port map( 
+        -- Inputs
+        BCLK           => GND_net, -- tied to '0' from definition
+        PADDR          => CoreAPB3_0_APBmslave0_PADDR_1,
+        PCLK           => FCCC_0_GL0,
+        PENABLE        => CoreAPB3_0_APBmslave0_PENABLE,
+        PRESETN        => FCCC_0_LOCK,
+        PSEL           => CoreAPB3_0_APBmslave1_PSELx,
+        PWDATA         => CoreAPB3_0_APBmslave0_PWDATA_1,
+        PWRITE         => CoreAPB3_0_APBmslave0_PWRITE,
+        SCLI           => SCLO_net_0,
+        SDAI           => SDAO_net_0,
+        SMBALERT_NI(0) => GND_net, -- tied to '0' from definition
+        SMBSUS_NI(0)   => GND_net, -- tied to '0' from definition
+        -- Outputs
+        INT            => OPEN,
+        PRDATA         => CoreAPB3_0_APBmslave1_PRDATA,
+        SCLO           => SCLO_net_0,
+        SDAO           => SDAO_net_0,
+        SMBALERT_NO    => OPEN,
+        SMBA_INT       => OPEN,
+        SMBSUS_NO      => OPEN,
+        SMBS_INT       => OPEN 
         );
 -- CoreUARTapb_0   -   Actel:DirectCore:CoreUARTapb:5.5.101
 CoreUARTapb_0 : top_CoreUARTapb_0_CoreUARTapb

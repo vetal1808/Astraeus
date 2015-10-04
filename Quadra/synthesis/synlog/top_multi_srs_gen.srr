@@ -1,9 +1,10 @@
 Synopsys Netlist Linker, version comp201403sp1p1, Build 095R, built Oct  9 2014
 @N|Running in 64-bit mode
+File C:\Users\kruci_000\Desktop\SoC\i2c\Quadra\synthesis\synwork\top_comp.srs changed - recompiling
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sun Oct 04 22:10:10 2015
+# Sun Oct 04 22:25:30 2015
 
 ###########################################################]
